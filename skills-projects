@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Minseon Kim - Skills &amp; Projects</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- Link HTML + CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div id="outer">
+    <div id="inner">
+
+      <div id="header">
+        <h1>Minseon Kim</h1>
+        <div class="small-note">Technical Skills • Selected Projects</div>
+      </div>
+
+      <div id="content-wrap">
+
+        <div id="nav">
+          <a href="index.html">Link to<br />education</a>
+          <a href="employment.html">Link to<br />employment</a>
+          <a class="active" href="skills-projects.html">Link to<br />Skills / Project</a>
+        </div>
+
+        <div id="main">
+          <h2>Skills &amp; Projects</h2>
+
+          <div class="section-block">
+            <h3>Skills</h3>
+            <ul>
+              <li><strong>Languages:</strong> Java, Python, JavaScript</li>
+              <li><strong>Web:</strong> HTML/XHTML, CSS
+              </li>
+              <li><strong>Tools:</strong> Git/GitHub, VS Code, IntelliJ</li>
+              <li><strong>Concepts:</strong> Data structures, basic system design, testing/debugging</li>
+            </ul>
+          </div>
+
+          <div class="section-block">
+            <h3>Selected Projects</h3>
+
+            <p><strong>StyleAttack (Capstone)</strong></p>
+            <ul>
+              <li>Style-based adversarial evaluation framework for LLM safety testing</li>
+              <li class="small-note">Focus: evaluation design, risk categories, and structured reporting</li>
+            </ul>
+
+            <hr />
+
+            <p><strong>Regrader (UX/HCI)</strong></p>
+            <ul>
+              <li>Rubric-linked regrade request workflow to improve transparency and reduce ambiguity</li>
+              <li class="small-note">Focus: user research, needs analysis, and interface design</li>
+            </ul>
+
+            <hr />
+
+            <p><strong>Korean AI Compliance Readiness Assessment</strong></p>
+            <ul>
+              <li>Research project mapping AI company practices to governance frameworks (e.g., NIST AI RMF)</li>
+              <li class="small-note">Focus: cross-cultural regulatory translation &amp; practical checklists</li>
+            </ul>
+
+             <hr />
+
+            <p><strong>InPantry</strong></p>
+            <ul>
+              <li>Full Stack Web Application using MERN stack. Implement ingredient tracking with acquisition/expiration dates and FDA-based validation and designed recipe-ranking algorithm priortizing available and soon-to-expire ingredients.</li>
+              <li class="small-note">Focus: Skill development &amp; DB design</li>
+            </ul>
+          </div>
+
+          <div class="section-block">
+            <h3>Portfolio Notes</h3>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
