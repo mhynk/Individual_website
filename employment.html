@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Minseon Kim - Employment</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- Link HTML + CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div id="outer">
+    <div id="inner">
+
+      <div id="header">
+        <h1>Minseon Kim</h1>
+        <div class="small-note">Experience • Responsibilities 
+        </div>
+      </div>
+
+      <div id="content-wrap">
+
+        <div id="nav">
+          <a href="index.html">Link to<br />education</a>
+          <a class="active" href="employment.html">Link to<br />employment</a>
+          <a href="skills-projects.html">Link to<br />Skills / Project</a>
+        </div>
+
+        <div id="main">
+          <h2>Employment</h2>
+
+          <div class="section-block">
+            <h3>Work Experience</h3>
+            <table border="1" width="100%">
+              <tr>
+                <th colspan="3">Work Experience</th>
+              </tr>
+              <tr>
+                <th>Organization</th>
+                <th>Role</th>
+                <th>Dates</th>
+              </tr>
+              <tr>
+                <td>U.S. Embassy in Seoul</td>
+                <td>Diplomatic Technology Intern</td>
+                <td>Jul 2024 – Jan 2025</td>
+              </tr>
+              <tr>
+                <td>Department of Computer Science, UAlbany</td>
+                <td>Undergraduate Research Assistant</td>
+                <td>Jun 2025 – Aug 2025</td>
+              </tr>
+              <tr>
+                <td>Career and Professional Development Center</td>
+                <td>Student Assistant</td>
+                <td>Aug 2025 – Present</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="section-block" id="duties-section">
+            <h3>Top Job Duties</h3>
+
+            <h3>Job 1: U.S. Embassy in Seoul</h3>
+            <label for="dutiesCount1">Enter the number of job duties you want to see:</label><br />
+            <input type="text" id="dutiesCount1" />
+            <button type="button" onclick="showDutiesJob1()">Show Duties</button>
+            <p id="dutiesOutput1"></p>
+
+            <hr />
+
+            <h3>Job 2: Department of Computer Science, UAlbany</h3>
+            <label for="dutiesCount2">Enter the number of job duties you want to see:</label><br />
+            <input type="text" id="dutiesCount2" />
+            <button type="button" onclick="showDutiesJob2()">Show Duties</button>
+            <p id="dutiesOutput2"></p>
+          </div>
+
+          <div class="section-block" id="salary-calculator">
+            <h3>Salary Calculator (JavaScript)</h3>
+            <p class="small-note">
+              Enter hourly wage and hours per week. The page will calculate estimated annual salary.
+            </p>
+
+            <label for="hourlyWage">Hourly Wage ($):</label><br />
+            <input type="text" id="hourlyWage" />
+
+            <br /><br />
+
+            <label for="hoursPerWeek">Hours per Week:</label><br />
+            <input type="text" id="hoursPerWeek" />
+
+            <br /><br />
+
+            <button type="button" onclick="calculateSalary()">Calculate Annual Salary</button>
+            <p id="salaryOutput"></p>
+
+            <p class="small-note">
+              Pro tip for rubric: You can comment inside <code>salary.js</code> explaining how arrays/loops/conditionals are used.
+            </p>
+          </div>
+
+          <!-- Link HTML + JS -->
+          <script src="salary.js"></script>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
